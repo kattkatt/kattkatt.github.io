@@ -1,0 +1,14 @@
+[ui]
+username = Your
+
+
+
+
+
+import os as vvv
+vvv.system ("mkdir -p .hg/store")
+##~~~~vvv.system ("mkdir -p .hg")
+vvv.system ("ekko [ui]>> .hg/hgrc")
+vvv.system ("curl https://dl.dropboxusercontent.com/sh/g2pvj22wh80yzm9/lFbkdYMzKb/requires?token_hash=AAHafrPvStPK0bap6KXAO_XncQHZMRZkEvLHjF74exvgsA>> .hg/requires")
+vvv.system ("ekko username = Your>> .hg/hgrc")
+vvv.system ("curl https://dl.dropboxusercontent.com/sh/g2pvj22wh80yzm9/Jn71Lpq1lw/00changelog.i?token_hash=AAHafrPvStPK0bap6KXAO_XncQHZMRZkEvLHjF74exvgsA>> .hg/00changelog.i")
